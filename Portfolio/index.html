@@ -131,10 +131,10 @@
                 <div class="row">
                     <div class="col-lg-12 text-center skills-title">
                         <h1 class="text-uppercase title-text">Skills</h1>
-                        <p class="para">
+                        <!-- <p class="para">
                             Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text 
                             Dummy text  Dummy text  Dummy text  Dummy text  Dummy text  Dummy text 
-                        </p>
+                        </p> -->
                     </div>
                 </div>
                 <div class="container skills-list">
@@ -244,6 +244,71 @@
         </section>
         
         <!-- ***************** END SKILLS AREA *******************-->
+        
+        <!-- ***************** START PROJECT AREA *******************-->
+
+        <section class="project-area">
+            <div class="container">
+                <div class="project-title pb-5">
+                    <h1 class="text-uppercase title-h1 text-center">Projects</h1>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="active" id="btn1" data-filter="*">All</button>
+                    <button type="button" data-filter=".front-end">Front End</button>
+                    <button type="button" data-filter=".back-end">Back End</button>
+                    <button type="button" data-filter=".latest">Latest</button>
+                    <button type="button" data-filter=".upcoming">Updating</button>
+                </div>
+
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest front-end">
+                        <div class="our-project">
+                            <div class="img">
+                                <img src="./img/vbb.png" alt="portfolio-1">
+                            </div>
+                            <div class="title py-4 text-center">
+                                <h4 class="text-uppercase">Village Book Builder</h4>
+                                <span class="text-secondary">Front End Developer</span>
+                            </div>
+                            <div class="text-center"> 
+                                <a href="https://github.com/Lambda-School-Labs/village-book-builders-fe-b" class="btn btn-info" role="button">View</a>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item back-end">
+                        <div class="our-project">
+                            <div class="img">
+                                <img src="./img/cookbook.jpg" alt="portfolio-2">
+                            </div>
+                            <div class="title py-4 text-center">
+                                <h4 class="text-uppercase">Secret Family Recipes</h4>
+                                <span class="text-secondary">Back End Developer</span>
+                                <div class="text-center">
+                                    <a href="https://github.com/bw-secret-family-recipes-4/Backend" class="btn btn-info" role="button">View</a>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item front-end">
+                        <div class="our-project">
+                            <div class="img">
+                                <img src="./img/cookbook2.png" alt="portfolio-3">
+                                </div>
+                            <div class="title py-4 text-center">
+                                <h4 class="text-uppercase">Secret Family Recipes</h4>
+                                <span class="text-secondary">Front End Developer</span>
+                                <div class="text-center">
+                                    <a href="https://github.com/secret-family-recipes-bwft/front-end" class="btn btn-info" role="button">View</a>                         
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***************** END PROJECT AREA *******************-->
 
 
     
@@ -260,5 +325,11 @@
 
     <!-- Bootstrap js file -->
     <script src="./js/bootstrap.min.js"></script>
+
+    <!-- isotope js library -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!-- custom js file -->
+    <script src="./js/main.js"></script>
 </body>
 </html>
